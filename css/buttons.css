@@ -4,6 +4,7 @@
 .btn,
 .btn:link,
 .btn:visited {
+	border-radius: 500px 500px;
 	display: inline-block;
 	padding: 0.75em 1em;
 	background-color: #CCB6B6;

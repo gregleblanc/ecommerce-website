@@ -2,45 +2,29 @@
 <html>
 <head>
 <meta charset="UTF-8">
+  <link href='http://fonts.googleapis.com/css?family=Exo+2:400,500' rel='stylesheet' type='text/css'>
   <link href="../css/typography.css" rel="stylesheet">
   <link href="../css/list-group.css" rel="stylesheet">
   <link href="../css/media-object.css" rel="stylesheet">
 <title>Media Object</title>
 </head>
 
-<h1>Media Object</h1>
-
-<div class="media">
-	<div class="media-img">
-	 <img src="http://placehold.it/250x250" alt="">
-	</div>
-	<div class="media-body">
-		<h2>Thing</h2>
-		<p>blablablablakbakskdaslkdasdhaskjhldad jhgaksdasd kjbaskdad.</p>
-</div>
-</div>
-
-<div class="media">
-	<div class="media-img-reversed">
-	 <img src="http://placehold.it/250x250" alt="">
-	</div>
-	<div class="media-body">
-		<h2>Thing 2</h2>
-		<p>blablablablakbakskdaslkdasdhaskjhldad jhgaksdasd kjbaskdad.</p>
-</div>
-</div>
-
-<div class="media">
-	<div class="media-img media-img-stacked">
-	 <img src="http://placehold.it/250x250" alt="">
-	</div>
-	<div class="media-body">
-		<h2>Name</h2>
-		<p>blablablablakbakskdaslkdasdhaskjhldad jhgaksdasd kjbaskdad.</p>
-</div>
-</div>
-
-
 <body>
+
+<h1>Search Field</h1>
+
+
+ <div id="search">
+
+        <form action="javascript:void(0);" method="get">
+
+            <input type="text" required value="search" onBlur="if(this.value=='')this.value='search'" onFocus="if(this.value=='search')this.value='' "> <!-- JS because of IE support; better: placeholder="search" -->
+
+            <input type="hidden" value="">
+
+        </form>
+
+    </div> <!-- end search -->
+    
 </body>
 </html>
