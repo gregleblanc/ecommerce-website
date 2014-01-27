@@ -4,7 +4,6 @@
 .btn,
 .btn:link,
 .btn:visited {
-	border-radius: 500px 500px;
 	display: inline-block;
 	padding: 0.75em 1em;
 	background-color: #CCB6B6;
@@ -23,6 +22,21 @@
 .btn-alt,
 .btn-alt:link,
 .btn-alt:visited{
-	background-color: #5d8432;
-	background-image: linear-gradient(to bottom, #5d8432, #3b6210);
+	display: inline-block;
+	float: right;
+	text-align:right;
+	padding: .25em .5em;
+	margin-right:-30px;
+	background-color: #491314;
+	color: #fff;
+	font-weight: bold;
+	border: 0;
+	
+}
+
+.btn-alt:hover,
+.btn-alt:focus,
+.btn-alt:active {
+	color: #CCB6B6;
+	background-color: #491314;
 }
