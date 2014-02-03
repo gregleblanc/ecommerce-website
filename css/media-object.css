@@ -28,21 +28,20 @@
 /* ---------- SEARCH ---------- */
 
 #search {
-	width: 200px;
-	height: 26px;
+	width: 31%;
+	height: 10px;
 }
 
 #search form input[type="text"] {
 	background: #F0E3E3 ;
 	border: none;
-
 	color: #5E191A;
-	font-family: 'Exo 2', sans serif;
-	font-size: 14px;
+	font-family: 'helvetica', sans serif;
+	font-size: 20px;
 	outline: none;
 	margin-top:-2px;
 	
-	padding: 12px 10px 15px 20px;
+	padding: 12px 10px 6px 20px;
 	
 	width: 100%;
 }

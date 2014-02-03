@@ -1,10 +1,11 @@
 .grid{
+
 	
 	overflow: hidden;
 }
 
 .grid-nav{
-	
+		text-align:center;
 	overflow: hidden;
 	
 }
@@ -18,6 +19,8 @@
 	background-color:#CCB6B6;
 }
 
+
+
 .unit-s-1{
 	width: 100%;
 	
@@ -26,6 +29,8 @@
 .unit-s-1-2{
 	width: 50%;
 }
+
+
 
 .logo-nav{
 	padding-top: 10px;
@@ -63,5 +68,9 @@
 	
 	.unit-l-1-6{
 		width: 16.6666666667%;
+	}
+	
+	.unit-l-1-thin{
+	width:0px;
 	}
 }

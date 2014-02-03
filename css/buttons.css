@@ -1,11 +1,13 @@
 @charset "UTF-8";
 /* CSS Document */
 
+
+
 .btn,
 .btn:link,
 .btn:visited {
 	display: inline-block;
-	padding: 0.75em 1em;
+	padding: 0.75em 44%;
 	background-color: #CCB6B6;
 	color: #fff;
 	font-weight: bold;
@@ -39,4 +41,33 @@
 .btn-alt:active {
 	color: #CCB6B6;
 	background-color: #491314;
+}
+
+.btn-search{
+	background-image:url(../assets/mag.svg);
+	background-repeat:no-repeat;
+	background-position:center; 
+	height: 33px;
+	width:33px;
+}
+
+.btn-search,
+.btn-search:link,
+.btn-search:visited{
+	display: inline-block;
+	float: right;
+	text-align:right;
+	padding: .25em .5em;
+	margin-right:-30px;
+	background-color: #491314;
+	color: #fff;
+	font-weight: bold;
+	border: 0;
+	
+}
+
+.btn-search:hover,
+.btn-search:focus,
+.btn-search:active {
+	background-color: #8A7171;
 }
