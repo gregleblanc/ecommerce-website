@@ -1,3 +1,19 @@
 @charset "utf-8";
 /* CSS Document */
 
+.logo-nav{
+	padding-top: 10px;
+	padding-bottom: 4px;
+	width: 100px;
+}
+
+.unit-nav{
+	float: left;
+	background-color:#CCB6B6;
+}
+
+.grid-nav{
+		text-align:center;
+	overflow: hidden;
+	
+}
