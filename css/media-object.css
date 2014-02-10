@@ -1,5 +1,9 @@
 /* CSS Document */
 
+img{
+	width:100%;
+}
+
 .media{
 	overflow: hidden;
 }

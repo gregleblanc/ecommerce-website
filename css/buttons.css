@@ -6,6 +6,7 @@
 .btn,
 .btn:link,
 .btn:visited {
+	width: 50px;
 	display: inline-block;
 	padding: 0.75em 44%;
 	background-color: #CCB6B6;
@@ -24,6 +25,7 @@
 .btn-alt,
 .btn-alt:link,
 .btn-alt:visited{
+	width: 50px;
 	display: inline-block;
 	float: right;
 	text-align:right;
