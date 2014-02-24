@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* CSS Document */
 
 .media{
@@ -44,4 +45,79 @@
 	padding: 10px 10px 10px 20px;
 	
 	width: 100%;
+=======
+/* CSS Document */
+
+img{
+	width:100%;
+}
+
+img:hover,
+img:focus,
+img:active {
+	opacity:0.4;
+}
+
+.media{
+	overflow: hidden;
+}
+
+.media-img{
+	float: left;
+	margin: 0 10px 0 0;
+}
+
+.media-body {
+	overflow: hidden;
+}
+
+.media-img-reversed{
+	float: right;
+	margin: 0 0 0 10px;
+}
+
+.media-img-stacked{
+	float:none;
+	margin:0;
+}
+
+
+
+/* ---------- SEARCH ---------- */
+
+#search {
+	width: 30%;
+	height: 10px;
+}
+
+#search form input[type="text"] {
+	background: #F0E3E3 ;
+	border: none;
+	color: #5E191A;
+	font-family: 'helvetica', sans serif;
+	font-size: 20px;
+	outline: none;
+	margin-top:-2px;
+	
+	padding: 12px 10px 6px 20px;
+	
+	width: 100%;
+}
+
+@media only screen and (max-width: 30em) {
+	#search {
+	width: 100%;
+	height: 50px;
+}
+
+#search form input[type="text"] {
+	background: #F0E3E3 ;
+	border: none;
+	color: #5E191A;
+	font-family: 'helvetica', sans serif;
+	font-size: 20px;
+	outline: none;
+	width: 100%;
+}
+>>>>>>> e386504318dc65c81642b5e2deb9f201b7bbe094
 }

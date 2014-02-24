@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+
+.grid-footer{
+	bottom: 0px;
+	padding: 0 0 0 12.5%;
+	width:75%;
+	text-align:center;
+	overflow: hidden;
+	 margin-top:50px;
+}
+
+.footer-nav{
+	bottom: 0px;
+	float: left;
+	background-color:#CCB6B6;
+}
