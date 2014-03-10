@@ -2,7 +2,8 @@
 /* CSS Document */
 
 .logo-nav{
-	padding-top: 10px;
+	height:27px;
+	padding-top: 5px;
 	padding-bottom: 4px;
 	width: 100px;
 }
@@ -16,4 +17,19 @@
 		text-align:center;
 	overflow: hidden;
 	
+}
+
+.current{
+	color:#1D1111;
+}
+
+.banner{
+	background: #48662a url("../images/banner.jpg") no-repeat center center;
+	background-size: cover;
+	text-align: center;
+	padding: 5rem 1rem 1rem;
+}
+
+.banner h2{
+	color:#fff;
 }
