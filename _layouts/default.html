@@ -49,6 +49,18 @@
 		</div>
 		</div>
 		
+		
+		{% if page.showbanner %}
+	<div class="banner">
+		<h2>{{page.bannertext}}</h2>
+	</div>
+{% endif %}
+	
+		{% if page.showbanner-about %}
+	<div class="banner-about">
+		<h2>{{page.bannertext}}</h2>
+	</div>
+{% endif %}
 {{content}}
 
    		<div class="grid-footer">
