@@ -24,6 +24,26 @@
 	margin:0;
 }
 
+.about{
+	display:block;
+	position:relative;
+	text-allign: center;
+	background:url(../assets/inside.jpg) no-repeat center center;
+	background-size: 100%;
+	width:100%;
+	height: 10rem;
+}
+
+.thanks{
+	display:block;
+	position:relative;
+	text-allign: center;
+	background: url(../assets/photo-stock.jpg) no-repeat center center;
+	width:100%;
+	height: 15rem;
+}
+
+
 
 
 /* ---------- SEARCH ---------- */
