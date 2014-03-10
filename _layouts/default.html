@@ -24,7 +24,7 @@
 				
 		</div>
 		<div class="unit-nav gutter unit-s-1 unit-m-1-6 unit-l-1-6">
-				<a class="btn micro" class="{% if page.url == '/' %}current{% endif %}" href="{{site.baseurl}}/" >Home</a>
+				<a href="{{site.baseurl}}/" class="btn micro {% if page.url contains 'thank-you' %}current{% endif %}" >Home</a>
 		</div>
 		<div  class="unit-nav gutter unit-s-1 unit-m-1-6 unit-l-1-6">
 				<a href="{{site.baseurl}}/thank-you/" class="btn micro {% if page.url contains 'thank-you' %}current{% endif %}" >Thanks</a>
