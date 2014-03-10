@@ -2,7 +2,7 @@
 <html lang="en-ca">
 <head>
 	<meta charset="utf-8">
-	<title>Grids</title>
+	<title>{{page.title}} · Ecommerce Website</title>
 	<meta name="handheldfriendly" content="true">
 	<meta name="mobileoptimized" content="240">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
@@ -23,13 +23,13 @@
 				
 		</div>
 		<div class="unit-nav gutter unit-s-1 unit-m-1-6 unit-l-1-6">
-				<a href="{{site.baseurl}}/" class="btn micro" href="#">Home</a>
+				<a class="btn micro {% if page.url == '/' %}current{% endif %}" href="{{site.baseurl}}/" >Home</a>
 		</div>
 		<div  class="unit-nav gutter unit-s-1 unit-m-1-6 unit-l-1-6">
-				<a href="{{site.baseurl}}/thank-you/" class="btn micro" href="#">Thanks</a>
+				<a href="{{site.baseurl}}/thank-you/" class="btn micro {% if page.url contains 'thank-you' %}current{% endif %}" >Thanks</a>
 		</div>
         	<div class="unit-nav gutter unit-s-1 unit-m-1-6 unit-l-1-6">
-				<a href="{{site.baseurl}}/about/" class="btn micro" href="#">About</a>
+				<a class="btn micro {% if page.url == '/about/' %}current{% endif %}" href="{{site.baseurl}}/about/" >About</a>
 		</div>
         
         	<div id="search" class="unit-nav gutter unit-s-1 unit-m-1-6 unit-l-1-6">
