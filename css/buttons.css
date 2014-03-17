@@ -6,7 +6,7 @@
 .btn:link,
 .btn:visited {
 	display: inline-block;
-	padding: 0.75em 1em;
+	padding: 0.75em ;
 	background-color: #CCB6B6;
 	color: #fff;
 	font-weight: bold;
@@ -122,7 +122,7 @@
 	float: right;
 	text-align:right;
 	padding: .25em .5em;
-	margin-right:-30px;
+	
 	background-color: #491314;
 	color: #fff;
 	font-weight: bold;
@@ -160,6 +160,10 @@
 .btn-search:focus,
 .btn-search:active {
 	background-color: #8A7171;
+}
+
+.search{
+	width:14.2857142857%;
 }
 }
 >>>>>>> e386504318dc65c81642b5e2deb9f201b7bbe094

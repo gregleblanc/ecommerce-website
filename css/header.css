@@ -19,9 +19,14 @@
 	
 }
 
-.current{
-	background-colour: #56963D;
-	color:#1D1111;
+.current,
+.current:hover,
+.current:focus,
+.current:active,
+.current:link,
+.current:visited {
+	background-color: #3F1C1C;
+	color:#C3A4A5;
 }
 
 .banner{
